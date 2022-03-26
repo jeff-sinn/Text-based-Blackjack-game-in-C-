@@ -19,13 +19,13 @@ If you go over 21 you bust, and the dealer wins regardless of the dealer's hand.
 If you are dealt 21 from the start (Ace & 10), you got a blackjack.
 Dealer will hit until his/her cards total 17 or higher.
 Winning rules: blackjack > 21 points > 20 points ...
-Each players have 100 tokens. When the player have no tokens left, player lose. Instead, if the banker have no tokens left, the player win.
+Each players have 100 tokens. When one of the player have no tokens left, the player/banker with most tokens win.
 
 Code requirement:
 generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
 Data structure for storing game status: 1.integer for the tokens remained 2.string/int for the cards drawn. 3.arrays of the cards in hand of each player.
 Dynamic memory management: We don't know what it is. May you teach us how to apply it into our project?
-File input: Number of the players (1-3) / Whether the player 'hit' to ask for the cards. / 
-File output: the symbol of the cards / Win or lose against the dealer
+File input: Number of the players (1-3) / Whether the player 'hit' to ask for the cards.
+File output: the card board of the players / the player win or lose against the dealer / tokens left in each round / which player have the most tokens left when the game ends
 
-program codes in multiple files: 1.Calculate and show the number of tokens 2.Input the number of players and generate the cards for players and banker. 3.Determine the a player win/lose against the dealer. 4.print the card board.
+program codes in multiple files: 1.Calculate and show the number of tokens 2.Input the number of players and generate the cards for players and banker. 3.Determine the a player win/lose against the dealer. 4.print the card board of the players and banker
