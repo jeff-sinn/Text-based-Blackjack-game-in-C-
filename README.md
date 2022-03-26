@@ -36,4 +36,4 @@ Questions:
 1.Is our project difficulty level enough? if it is not enough, we can add more rules in it.
 2.We dont know what exactly dynamic memory management is. How can it be applied to our project?
 3.We dont know what a list of features is in specific. How can it be applied to our project?
-4.Any other recommendation / improvement made for our project outline?
+4.Any other recommendation / improvement made for our project outline? (e.g. creative elements that can be added to our proj)
