@@ -21,6 +21,8 @@ Dealer will hit until his/her cards total 17 or higher.
 Winning rules: blackjack > 21 points > 20 points ...
 Each players have 100 tokens. When one of the player have no tokens left, the player/banker with most tokens win.
 
+List of features(We don't know what it is in specific): maybe the symbol of cards / tokens? Would you like to tell me what can be added to our project?
+
 Code requirement:
 generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
 Data structure for storing game status: 1.integer for the tokens remained 2.string/int for the cards drawn. 3.arrays of the cards in hand of each player.
@@ -29,3 +31,9 @@ File input: Number of the players (1-3) / Whether the player 'hit' to ask for th
 File output: the card board of the players / the player win or lose against the dealer / tokens left in each round / which player have the most tokens left when the game ends
 
 program codes in multiple files: 1.Calculate and show the number of tokens 2.Input the number of players and generate the cards for players and banker. 3.Determine the a player win/lose against the dealer. 4.print the card board of the players and banker
+
+Questions:
+1.Is our project difficulty level enough? if it is not enough, we can add more rules in it.
+2.We dont know what exactly dynamic memory management is. How can it be applied to our project?
+3.We dont know what a list of features is in specific. How can it be applied to our project?
+4.Any other recommendation / improvement made for our project outline?
