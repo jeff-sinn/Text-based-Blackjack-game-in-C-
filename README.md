@@ -23,7 +23,7 @@ Each players have 100 tokens. When the player have no tokens left, player lose. 
 
 Code requirement:
 generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
-Data structure for storing game status: integer for the tokens remained and string/int for the cards drawn.
+Data structure for storing game status: 1.integer for the tokens remained 2.string/int for the cards drawn. 3.arrays of the cards in hand of each player.
 Dynamic memory management: I don't know what it is. May you teach us how to apply it into our project?
 File input: Number of the players (1-3) / Whether the player 'hit' to ask for the cards.
 File output: the symbol of the cards / Win or lose against the dealer
