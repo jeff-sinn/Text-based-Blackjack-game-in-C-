@@ -25,7 +25,7 @@ Code requirement:
 generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
 Data structure for storing game status: 1.integer for the tokens remained 2.string/int for the cards drawn. 3.arrays of the cards in hand of each player.
 Dynamic memory management: I don't know what it is. May you teach us how to apply it into our project?
-File input: Number of the players (1-3) / Whether the player 'hit' to ask for the cards.
+File input: Number of the players (1-3) / Whether the player 'hit' to ask for the cards. / 
 File output: the symbol of the cards / Win or lose against the dealer
 
 program codes in multiple files: 1.Calculate and show the number of tokens 2.Input the number of players and generate the cards for players and banker. 3.Determine the a player win/lose against the dealer. 4.print the card board.
