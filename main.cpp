@@ -1,5 +1,4 @@
-#include 
-rrewffe
-saasdsadas
-jeoqjq
-1234567
+#include <iostream>
+using namespace std;
+int main() {
+  
