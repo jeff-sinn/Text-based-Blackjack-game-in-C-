@@ -43,7 +43,7 @@ Code requirement:
 
 1.generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
 
-2.Data structure for storing game status: 
+2.Data structure for storing game status.
 -integer for the tokens remained 
 -int for the cards drawn. 
 -linked list of the cards in hand of each player.
