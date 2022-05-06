@@ -38,12 +38,28 @@ Next, they need to determine whether they draw the card or not due to the card c
 
 
 Code requirement:
-generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
-Data structure for storing game status: 1.integer for the tokens remained 2.string/int for the cards drawn. 3.arrays of the cards in hand of each player.
-Dynamic memory management: We don't know what it is. May you teach us how to apply it into our project?
-File input: Number of the players (1-3) / Whether the player 'hit' to ask for the cards.
-File output: the card board of the players / the player win or lose against the dealer / tokens left in each round / which player have the most tokens left when the game ends
-
+1.generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
+2.Data structure for storing game status: 
+  -integer for the tokens remained 
+  -int for the cards drawn. 
+  -linked list of the cards in hand of each player.
+3.Dynamic memory management: 
+  -we use pointer and linked list to store the player card and dealer card.
+4.1 File input:
+  - the tokens of the player before each game start
+4.2 File output:
+  - the tokens remain of the player after the end of each game
+5. Program codes in mutliple files:
+  5.1 main.cpp
+    - Asking the player draw card or not
+    - Printing the cards of player and dealer
+    - Storing the cards state of player and dealer
+    - Printing the result of the game
+   5.2 readwrite.cpp
+    - input the file of tokens of player to the main function
+   5.3 readwrite.h
+    - header file
+   
 program codes in multiple files: 1.Calculate and show the number of tokens 2.Input the number of players and generate the cards for players and banker. 3.Determine the a player win/lose against the dealer. 4.print the card board of the players and banker
 
 Questions:
