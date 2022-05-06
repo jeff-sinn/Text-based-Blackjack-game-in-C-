@@ -53,27 +53,26 @@ Code requirement:
   
 4. File input and output:
 
-  4.1 file input
-    - the tokens of the player before each game start
-    
-  4.2 File output:
-    - the tokens remain of the player after the end of each game
+4.1 file input
+- the tokens of the player before each game start 
+4.2 File output:
+- the tokens remain of the player after the end of each game
     
 5. Program codes in mutliple files:
 
-  5.1 main.cpp
-    - Asking the player draw card or not
-    - Printing the cards of player and dealer
-    - Storing the cards state of player and dealer
-    - Printing the result of the game
-  5.2 readwrite.cpp
-    - input the file of tokens of player to the main function 
-  5.3 readwrite.h
-    - header file
-  5.4 specialcase.cpp
-    - return true or false of each special cases e.g 21+3 and perfect number
-  5.5 specialcase.h
-    - header file
-  5.6 token.txt
-    - storing the tokens remains of the player
+5.1 bjmain.cpp
+- Asking the player draw card or not
+- Printing the cards of player and dealer
+- Storing the cards state of player and dealer
+- Printing the result of the game
+5.2 readwrite.cpp
+- input the file of tokens of player to the main function 
+5.3 readwrite.h
+- header file
+5.4 specialcase.cpp
+- return true or false of each special cases e.g 21+3 and perfect number
+5.5 specialcase.h
+- header file
+- 5.6 token.txt
+- storing the tokens remains of the player
 
