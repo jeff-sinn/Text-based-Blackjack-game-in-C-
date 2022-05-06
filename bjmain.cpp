@@ -200,7 +200,7 @@ int check21plus3(Desk* player, Desk * dealer, int token){ // check 21+3
     else{
         cout << "You didn't have any special cases." << endl;
         cout << "You lose 1 token." << endl;
-        token -=1;
+        token -=1; 
     }
     return token;
 }
