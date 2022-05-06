@@ -7,7 +7,7 @@ Sin Chung Hang (UID: 3035928067)
 
 
 Description of the game: Blackjack
-`
+
 1 dealer 1 player
 dealer is an AI
 
@@ -33,8 +33,9 @@ If these two cards form a flush and pairs, they player will gain 30 tokens.
 If these two cards form a pairs only, the player will gain 5 tokens.
 If all the above cases haven't happened , the player will lose 1 token on the perfect pairs.
 Each players have 20 tokens originally. The player can only bet one token on each game, 21+3 and perfect pairs. When the player have 3 tokens left, the game will give the player 20 more tokens.
+In the beginning of the game, the player need to input a number to start the game and whether he/she bet the 21+3 and perfect pair or not.
+Next, they need to determine whether they draw the card or not due to the card combinations.
 
-List of features(We don't know what it is in specific): maybe the symbol of cards / tokens? Would you like to tell me what can be added to our project?
 
 Code requirement:
 generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
