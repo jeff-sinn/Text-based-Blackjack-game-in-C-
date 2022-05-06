@@ -8,18 +8,31 @@ Sin Chung Hang (UID: 3035928067)
 
 Description of the game: Blackjack
 `
-1 dealer 1-3 players
+1 dealer 1 player
 dealer is an AI
 
 The goal of blackjack is to beat the dealer's hand without going over 21.
-Each player starts with two cards, one of the dealer's cards is hidden until the end.
+Player starts with two cards, dealer start with one card.
 Face cards are worth 10. Aces are worth 1 or 11, whichever makes a better hand. 2-10 cars are worth 2-10 respectively.
-To 'Hit' is to ask for another card. To 'Stand' is to hold your total and end your turn.
+The player can draw the card whatever they want until its point over 21.
 If you go over 21 you bust, and the dealer wins regardless of the dealer's hand.
 If you are dealt 21 from the start (Ace & 10), you got a blackjack.
 Dealer will hit until his/her cards total 17 or higher.
 Winning rules: blackjack > 21 points > 20 points ...
-Each players have 100 tokens. When one of the player have no tokens left, the player/banker with most tokens win.
+Apart from the normal black jack game, we also provide 21+3 and perfect pairs for player to play.
+21+3 and perfect pairs are optional for the player, the player need use one tokens for each if the want to bet.
+21+3 mean the the special cases of the first three cards( two are the players cards and one is the dealer cards).
+If these three cards form a flush + three of a kind, the player will gain 50 tokens.
+If these three cards form a flush + straight , the player will gain 25 tokens.
+If these three cards form three of a kind only, the player will gain 25 tokens.
+If these three cards form a straight only, the player will gain 10 tokens.
+If these three cards form a flush only, the player will gain 5 tokens.
+If all the above cases haven't happened, the player will lose 1 token on 21+3.
+Perfect pairs mean the special cases of the two player cards.
+If these two cards form a flush and pairs, they player will gain 30 tokens.
+If these two cards form a pairs only, the player will gain 5 tokens.
+If all the above cases haven't happened , the player will lose 1 token on the perfect pairs.
+Each players have 20 tokens originally. The player can only bet one token on each game, 21+3 and perfect pairs. When the player have 3 tokens left, the game will give the player 20 more tokens.
 
 List of features(We don't know what it is in specific): maybe the symbol of cards / tokens? Would you like to tell me what can be added to our project?
 
