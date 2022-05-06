@@ -49,15 +49,15 @@ Code requirement:
 -linked list of the cards in hand of each player.
   
 3.Dynamic memory management: 
--we use pointer and linked list to store the player card and dealer card.
+-we use pointer and linked list to store and add the player card and dealer card.
   
 4. File input and output:
 
 4.1 file input
-- the tokens of the player before each game start
+- read in the tokens of the player before each game start by the token.txt file.
  
 4.2 File output:
-- the tokens remain of the player after the end of each game
+- output the tokens remain of the player after the end of each game to the token.txt for game status storage.
     
 5. Program codes in mutliple files:
 
@@ -82,3 +82,5 @@ Code requirement:
 5.6 token.txt
 - storing the tokens remains of the player
 
+6.Compilation and execution in struction:
+For compilation, please type the command "make bjmain" in the terminal to comile the bjmain.cpp file to bjmain. Then, type "./bjmain" to execute the program in the terminal.
