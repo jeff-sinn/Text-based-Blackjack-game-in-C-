@@ -59,11 +59,10 @@ Code requirement:
     - input the file of tokens of player to the main function
    5.3 readwrite.h
     - header file
-   
-program codes in multiple files: 1.Calculate and show the number of tokens 2.Input the number of players and generate the cards for players and banker. 3.Determine the a player win/lose against the dealer. 4.print the card board of the players and banker
+   5.4 specialcase.cpp
+    - return true or false of each special cases e.g 21+3 and perfect number
+   5.5 specialcase.h
+    - header file
+   5.6 token.txt
+    - storing the tokens remains of the player
 
-Questions:
-1.Is our project difficulty level enough? if it is not enough, we can add more rules in it.
-2.We dont know what exactly dynamic memory management is. How can it be applied to our project?
-3.We dont know what a list of features is in specific. How can it be applied to our project?
-4.Any other recommendation / improvement made for our project outline? (e.g. creative elements that can be added to our proj)
