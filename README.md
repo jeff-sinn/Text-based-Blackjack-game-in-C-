@@ -38,6 +38,7 @@ Next, they need to determine whether they draw the card or not due to the card c
 
 
 Code requirement:
+
 1.generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
 
 2.Data structure for storing game status: 
