@@ -34,10 +34,14 @@ Perfect pairs mean the special cases of the two player cards.
 - If these two cards form a pairs only, the player will gain 5 tokens.
 - If all the above cases haven't happened , the player will lose 1 token on the perfect pairs.
 
-Each players have 20 tokens originally. The player can only bet one token on each game, 21+3 and perfect pairs. When the player have 3 tokens left, the game will give the player 20 more tokens.
+Assumption:
+Each players have 20 tokens originally. The player can only bet one token on each game, 21+3 and perfect pairs. Then, they will coninue on blackjack using 1 token. When the player have less than 3 tokens left, the game will give the player 20 more tokens.
 
-In the beginning of the game, the player need to input a number to start the game and whether he/she bet the 21+3 and perfect pair or not.
+Input of the game:
+In the beginning of the game, the player need to input a number to start the game as a seed to the random function and input whether he/she bet the 21+3 and perfect pair or not. 
+
 Next, they need to determine whether they draw the card or not due to the card combinations.
+
 
 Code requirement:
 
@@ -77,10 +81,11 @@ Code requirement:
 - return true or false of each special cases e.g 21+3 and perfect number
 
 5.5 specialcase.h
-- header file
+- header file of specialcase.cpp
 
 5.6 token.txt
-- storing the tokens remains of the player
+- storing the tokens remained of the player
 
 6.Compilation and execution in struction:
+
 For compilation, please type the command "make bjmain" in the terminal to comile the bjmain.cpp file to bjmain. Then, type "./bjmain" to execute the program in the terminal.
