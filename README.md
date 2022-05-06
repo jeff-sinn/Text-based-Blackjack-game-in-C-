@@ -39,16 +39,21 @@ Next, they need to determine whether they draw the card or not due to the card c
 
 Code requirement:
 1.generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
+
 2.Data structure for storing game status: 
   -integer for the tokens remained 
   -int for the cards drawn. 
   -linked list of the cards in hand of each player.
+  
 3.Dynamic memory management: 
   -we use pointer and linked list to store the player card and dealer card.
-4.1 File input:
-  - the tokens of the player before each game start
-4.2 File output:
-  - the tokens remain of the player after the end of each game
+  
+4. File input and output:
+  4.1 file input
+    - the tokens of the player before each game start
+  4.2 File output:
+    - the tokens remain of the player after the end of each game
+    
 5. Program codes in mutliple files:
   5.1 main.cpp
     - Asking the player draw card or not
