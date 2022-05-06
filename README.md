@@ -5,7 +5,6 @@ Group: 168
 Chan Tak Lung (UID: 3035926992)
 Sin Chung Hang (UID: 3035928067)
 
-
 Description of the game: Blackjack
 
 1 dealer 1 player
@@ -45,12 +44,12 @@ Code requirement:
 1.generation of random sets: the cards recieved by the dealer or players are determined by the random function in C++
 
 2.Data structure for storing game status: 
-  -integer for the tokens remained 
-  -int for the cards drawn. 
-  -linked list of the cards in hand of each player.
+-integer for the tokens remained 
+-int for the cards drawn. 
+-linked list of the cards in hand of each player.
   
 3.Dynamic memory management: 
-  -we use pointer and linked list to store the player card and dealer card.
+-we use pointer and linked list to store the player card and dealer card.
   
 4. File input and output:
 
