@@ -10,7 +10,7 @@ Note that to compile the program files, type the command "make bjmain" in termin
 Description of the game: Blackjack
 
 1 dealer 1 player
-dealer is an AI
+dealer is an AI.
 Player is you
 
 The goal of blackjack is to beat the dealer's hand without going over 21.
