@@ -9,6 +9,7 @@ Description of the game: Blackjack
 
 1 dealer 1 player
 dealer is an AI
+Player is you
 
 The goal of blackjack is to beat the dealer's hand without going over 21.
 Player starts with two cards, dealer start with one card.
@@ -58,10 +59,10 @@ Code requirement:
 4. File input and output:
 
 4.1 file input
-- read in the tokens of the player before each game start by the token.txt file.
+- read in the tokens of the player have before each game start by the token.txt file.
  
 4.2 File output:
-- output the tokens remain of the player after the end of each game to the token.txt for game status storage.
+- output the tokens remained of the player after the end of each game to the token.txt for game status storage of the token of player.
     
 5. Program codes in mutliple files:
 
