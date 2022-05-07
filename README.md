@@ -5,6 +5,8 @@ Group: 168
 Chan Tak Lung (UID: 3035926992)
 Sin Chung Hang (UID: 3035928067)
 
+**Note that to compile the program files, type the command "make bjmain" in terminal to compile the program file to bjmain, then type "./bjmain" to execute the it. Note that the video demonstration have not shown the compile command "make bjmain".
+
 Description of the game: Blackjack
 
 1 dealer 1 player
