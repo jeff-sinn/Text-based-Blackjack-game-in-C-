@@ -71,12 +71,13 @@ Code requirement:
 5.1 bjmain.cpp
 - Asking the player draw card or not
 - Printing the cards of player and dealer
-- Storing the cards state of player and dealer
+- Creating and Storing the cards state of player and dealer
 - Printing the result of the game
 - determine the 21+3 and perfectpairs cases.
+- caculate the tokens gain and loss and remaining token.
 
 5.2 readwrite.cpp
-- input the file of tokens of player to the main function 
+- input the file of tokens of player from token.txt to the main function and output the remained tokens to the token.txt
 
 5.3 readwrite.h
 - header file
